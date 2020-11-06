@@ -15,7 +15,7 @@
 
 3. 本教程提供数据包：在"SourceCode"文件夹中下载"DataDownload.py"并运行，输入本地目录后即可开始下载数据包，并自动解压至当地。
 
-## 写在前面，为什么要出这个系列的教程呢？
+## 写在前面，为什么要出这个系列的教程呢
 
 总的说来，我们现在有了很多非常厉害的深度学习框架，比如Tensorflow，CNTK，PaddlePaddle，Caffe2等等。然而，我们用这些框架在搭建我们自己的深度学习模型的时候，到底做了一些什么样的操作呢？我们试图去阅读框架的源码来理解框架到底帮助我们做了些什么，但是……很难！很难！很难！因为深度学习是需要加速啦，分布式计算啦，框架做了很多很多的优化，也让像我们这样的小白难以理解这些框架的源码。
 
@@ -37,10 +37,10 @@
 
   环境：
   
-  - Windows 10 version 1809
-  - Python 3.6.6
-  - Visual Studio 2017 Community or above
-  - VS Code
+- Windows 10 version 1809
+- Python 3.6.6
+- Visual Studio 2017 Community or above
+- VS Code
   
   自己：
 

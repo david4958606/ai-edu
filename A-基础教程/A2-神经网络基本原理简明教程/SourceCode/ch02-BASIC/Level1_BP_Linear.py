@@ -4,12 +4,12 @@
 import numpy as np
 
 def target_function(w,b):
-    x = 2*w+3*b
-    y=2*b+1
-    z=x*y
-    return x,y,z
-
-def single_variable(w,b,t):
+    x = 2 * w+3 * b
+    y = 2 * b + 1
+    z = x * y
+    return x, y, z
+# 单变量反向传播且未考虑b的贡献值改变
+def single_variable(w, b, t):
     print("\nsingle variable: b ----- ")
     error = 1e-5
     while(True):

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.colors import LogNorm
 
-file_name = "../../data/ch03.npz"
+file_name = "A-基础教程\A2-神经网络基本原理简明教程\Data\ch03.npz"
 
 def TargetFunction(x,w,b):
     y = w*x + b
